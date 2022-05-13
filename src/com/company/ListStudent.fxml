@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:controller="com.company.StudentListController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="781.0">
+         <children>
+            <TableView fx:id="tbview" layoutX="14.0" layoutY="169.0" prefHeight="371.0" prefWidth="753.0">
+              <columns>
+                <TableColumn fx:id="sEnrollID" prefWidth="137.0" text="EnrollID" />
+                <TableColumn fx:id="sFirstName" prefWidth="172.0" text="FirstName" />
+                  <TableColumn fx:id="sLastName" prefWidth="258.0" text="LastName" />
+                  <TableColumn fx:id="sAge" prefWidth="185.0" text="Age" />
+              </columns>
+            </TableView>
+            <Text layoutX="251.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh sách sinh viên">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Button onAction="#backToMenu" layoutX="644.0" layoutY="103.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Quay lại Menu">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

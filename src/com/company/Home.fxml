@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="com.company.HomeController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="357.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" wrappingWidth="86.6708984375">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Button onAction="#addStudent" layoutX="147.0" layoutY="129.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="213.0" text="Thêm Học sinh mới">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button onAction="#save" layoutX="444.0" layoutY="129.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="213.0" text="Lưu">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button onAction="#viewListStudent" layoutX="147.0" layoutY="358.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="213.0" text="Hiển thị học sinh">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button onAction="#Exit" layoutX="444.0" layoutY="358.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="213.0" text="Thoát">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
